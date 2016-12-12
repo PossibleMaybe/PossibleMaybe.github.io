@@ -129,6 +129,7 @@ $(function () {
                     url: 'php/getShow.php',
                     success: function(result){
                         console.log(typeof(result));
+                        console.log(result);
                         console.log(JSON.parse(result));
                         var data = JSON.parse(result);
                         console.log(data);
