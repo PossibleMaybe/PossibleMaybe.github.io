@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/lebo.iml" filepath="$PROJECT_DIR$/.idea/lebo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pwa.iml" filepath="$PROJECT_DIR$/.idea/pwa.iml" />
     </modules>
   </component>
 </project>
