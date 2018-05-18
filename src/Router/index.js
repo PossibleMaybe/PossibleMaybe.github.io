@@ -8,13 +8,12 @@ import Introduce from './../Containers/introduce';
 class BaseRouter extends Component {
     render() {
         return (
-            <div>
-                <Switch>
-                    <Route exact path="/" component={Index}></Route>
-                    <Route path="/detail" component={Detail}></Route>
-                    <Route path="/introduce" component={Introduce}></Route>
-                </Switch>
-            </div>
+            
+            <Switch>
+                <Route exact path="/" component={Index}></Route>
+                <Route path="/detail" component={Detail}></Route>
+                <Route path="/introduce" component={Introduce}></Route>
+            </Switch>
         )
     }
 }
