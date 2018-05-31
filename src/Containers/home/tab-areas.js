@@ -1,13 +1,22 @@
 import React, {Component} from 'react';
 
-import './../../styles/tab-areas.css';
+import First from './first';
+import Second from './second';
 
-export default class TabAreas extends Component {
+class TabAreas extends Component {
+  state = {
+    text: 'hello',
+  };
   render() {
     return (
-      <div className="tab-areas">
-
+      <div>
+        <p onClick={() => {this.setState({text: 'world'})}}>button</p>
+        <First text={this.state.text} />
+        <Second />
       </div>
     )
   }
 }
+
+
+export default TabAreas;
