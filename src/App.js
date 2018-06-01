@@ -13,7 +13,7 @@ class App extends Component {
       <div>
         <Router>
           <Route component={BaseRouter} />
-          
+          <div>test</div>
         </Router>
       </div>
      
