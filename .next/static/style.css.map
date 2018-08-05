@@ -1,0 +1,1 @@
+{"version":3,"file":"static/style.css","sources":["webpack:///./style.css"],"sourcesContent":[".framework {\n\twidth: 1140px;\n\tmargin: 0 auto;\n}\n.theme-bg {\n\tbackground: rgb(34,34,34);\n}\n\n\n// WEBPACK FOOTER //\n// ./style.css"],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA","sourceRoot":""}
