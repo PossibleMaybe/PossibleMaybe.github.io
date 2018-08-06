@@ -3,6 +3,8 @@ import Head from 'next/head';
 import Button from 'antd/lib/button';
 import Carousel from 'antd/lib/carousel';
 import Icon from 'antd/lib/icon';
+import Item from '../components/tab';
+console.log(Item);
 import '../style.css';
 
 
@@ -159,6 +161,7 @@ export default class Home extends PureComponent {
 				<div>
 					{this.renderHeader()}
 					{this.renderCarousel()}
+					<Item />
 					{this.renderBottom()}
 
 				</div>
