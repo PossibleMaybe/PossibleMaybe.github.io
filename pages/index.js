@@ -8,6 +8,7 @@ console.log(Item);
 import '../style.css';
 
 console.log('=====================');
+console.log('-----========-----==========');
 
 
 export default class Home extends PureComponent {
