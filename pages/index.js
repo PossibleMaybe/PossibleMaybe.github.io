@@ -7,7 +7,7 @@ import Item from '../components/tab';
 console.log(Item);
 import '../style.css';
 
-
+console.log('=====================');
 
 
 export default class Home extends PureComponent {
